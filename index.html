@@ -47,14 +47,8 @@
                 <label for="rating">Would You Recommend Our Product To A Friend ?</label>
                 <div class="radio-group">
                     <input type="radio" name="rating" id="never" value="never"><label for="never"> Never </label>
-                </div>
-                <div class="radio-group">
                     <input type="radio" name="rating" id="maybe" value="maybe"><label for="maybe"> Maybe </label>
-                </div>
-                <div class="radio-group">
                     <input type="radio" name="rating" id="likely" value="likely"><label for="likely"> Likely </label>
-                </div>
-                <div class="radio-group">
                     <input type="radio" name="rating" id="definitely" value="definitely"><label for="definitely">
                         Definitely
                     </label>
@@ -92,7 +86,6 @@
                         <svg class="check-mark-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
                             <polyline class="check-mark-svg-path" points="25.5,53.5 39.5,67.5 72.5,34.5 " />
                         </svg>
-
                         <span>Simpleness</span>
                     </label>
                 </div>
@@ -104,10 +97,15 @@
             </div>
 
             <div class="form-group">
-                <button id="submit" type="submit">Submit</button>
+                <button id="submit" type="submit" >Submit</button>
+            </div>
+
+            <div>
+                <p id="result">Result:</p>
             </div>
         </form>
     </main>
+    <script src="script.js"></script>
 </body>
 
 </html>
